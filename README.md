@@ -1,7 +1,9 @@
 # Advent of Code 2016
 
-Here's my repository for puzzles available at [Advent of Code](http://adventofcode.com/).  
+Here's my repository for the puzzles available at [Advent of Code](http://adventofcode.com/).  
 I'll try to solve/publish solutions every day, as the puzzles become available, but there might come a day when I have no time for solving the puzzles and/or don't have a clue how to solve them :)
+
+Comments, suggestions and critiques are welcome.
 
 &nbsp;
 
