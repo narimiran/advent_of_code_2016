@@ -4,8 +4,8 @@ with open('./02 - Bathroom Security.txt', 'r') as infile:
 deltas = {
     'R': 1,
     'L': -1,
-    'U': 1j,
-    'D': -1j,
+    'D': 1j,
+    'U': -1j,
 }
 
 KEYPAD_1 = [
@@ -30,8 +30,8 @@ def is_inside(pos, second_part):
         return abs(pos.real) + abs(pos.imag) <= 2
 
 
-def get_key(preal, pimag, k_pad):
-    return k_pad[int(pimag)][int(preal)]
+def get_key(pos, k_pad):
+    return k_pad[int(pos.imag)][int(pos.real)]
 
 
 def find_solutions(second_part=False):
@@ -49,9 +49,9 @@ def find_solutions(second_part=False):
         key_positions.append(pos)
 
     if not second_part:
-        return [get_key(pos.real+1, 1-pos.imag, KEYPAD_1) for pos in key_positions]
+        return [get_key(pos+(1+1j), KEYPAD_1) for pos in key_positions]
     else:
-        return [get_key(pos.real+2, 2-pos.imag, KEYPAD_2) for pos in key_positions]
+        return [get_key(pos+(2+2j), KEYPAD_2) for pos in key_positions]
 
 
 print(find_solutions())
