@@ -9,6 +9,7 @@ Comments, suggestions and critiques are welcome.
 
 ## Puzzles
 
-Number | Name | Puzzle | Solution
+Date | Name | Puzzle | Solution
 --- | --- | --- | ---
-1. | No Time for a Taxicab | [link](http://adventofcode.com/2016/day/1) | [link](./01 - No Time for a Taxicab.py) 
+Dec 01 | No Time for a Taxicab | [link](http://adventofcode.com/2016/day/1) | [link](./01 - No Time for a Taxicab.py)
+Dec 02 | Bathroom Security | [link](http://adventofcode.com/2016/day/2) | [link](./02 - Bathroom Security.py)
