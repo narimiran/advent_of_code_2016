@@ -13,3 +13,5 @@ Date | Name | Puzzle | Solution
 --- | --- | --- | ---
 Dec 01 | No Time for a Taxicab | [link](http://adventofcode.com/2016/day/1) | [link](./01 - No Time for a Taxicab.py)
 Dec 02 | Bathroom Security | [link](http://adventofcode.com/2016/day/2) | [link](./02 - Bathroom Security.py)
+Dec 03 | Squares With Three Sides | [link](http://adventofcode.com/2016/day/3) | [link](./03 - Squares With Three Sides.py)
+
