@@ -38,7 +38,7 @@ def find_solutions(second_part=False):
     if not second_part:
         pos = 0+0j      # start from 5, in the center
     else:
-        pos = -2+0j     # start from 5, left-middle
+        pos = -2+0j     # start from 5, two left from the center
 
     key_positions = []
     for line in directions:
@@ -53,6 +53,9 @@ def find_solutions(second_part=False):
     else:
         return [get_key(pos+(2+2j), KEYPAD_2) for pos in key_positions]
 
+print("Ok, I've memorized the bathroom code:", find_solutions())
+print('....')
 
-print(find_solutions())
-print(find_solutions(second_part=True))
+print("Hmmm, this well-designed keypad is not the one I was expecting.")
+print("But let me try to open it with the same instuctions as before.")
+print("Here's the new code: {}".format(find_solutions(second_part=True)))

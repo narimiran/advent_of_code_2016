@@ -21,6 +21,8 @@ def find_triangles(candidates, second_part=False):
                 solution.append(is_triangle(col[i:i+3]))
     return sum(solution)
 
-
-print(find_triangles(horizontal))
-print(find_triangles(vertical, True))
+print("Lots of potential triangles on the walls here.")
+print("Let me just quickly calculate their number: {}".format(find_triangles(horizontal)))
+print('.....')
+print("But wait! Maybe they are drawn vertically?")
+print("Number of those triangles is: {}".format(find_triangles(vertical, True)))
