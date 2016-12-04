@@ -1,5 +1,3 @@
-from collections import Counter
-
 with open('./04 - Security Through Obscurity.txt', 'r') as infile:
     all_rooms = infile.read().split('\n')
 
@@ -9,9 +7,8 @@ ch_sums = [room[-6:-1] for room in all_rooms]
 
 
 def find_most_common(name):
-    # Counter.most_common() returns a list [(letter, count), ...]
-    ranking = sorted(Counter(name).most_common(), key=lambda x: (-x[1], x[0]))
-    return ''.join(letter[0] for letter in ranking[:5])
+    ranking = sorted((-name.count(letter), letter) for letter in set(name))
+    return ''.join(letter for _, letter in ranking[:5])
 
 
 def find_rooms():
