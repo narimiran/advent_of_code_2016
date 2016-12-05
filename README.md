@@ -15,3 +15,4 @@ Dec 01 | No Time for a Taxicab | [link](http://adventofcode.com/2016/day/1) | [l
 Dec 02 | Bathroom Security | [link](http://adventofcode.com/2016/day/2) | [link](./02 - Bathroom Security.py)
 Dec 03 | Squares With Three Sides | [link](http://adventofcode.com/2016/day/3) | [link](./03 - Squares With Three Sides.py), [numpy](./03 - Squares With Three Sides - numpy.py)
 Dec 04 | Security Through Obscurity | [link](http://adventofcode.com/2016/day/4) | [link](./04 - Security Through Obscurity.py)
+Dec 05 | How About a Nice Game of Chess | [link](http://adventofcode.com/2016/day/5) | [link](./05 - How About a Nice Game of Chess.py)
