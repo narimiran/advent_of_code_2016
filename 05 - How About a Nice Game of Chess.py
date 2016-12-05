@@ -3,7 +3,7 @@ import hashlib
 DOOR_ID = 'wtnhxymk'
 
 first_password = ''
-second_password = ['' for _ in range(8)]
+second_password = [''] * 8
 available_positions = set('01234567')
 
 i = 0
