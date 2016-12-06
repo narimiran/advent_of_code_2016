@@ -16,3 +16,4 @@ Dec 02 | Bathroom Security | [link](http://adventofcode.com/2016/day/2) | [link]
 Dec 03 | Squares With Three Sides | [link](http://adventofcode.com/2016/day/3) | [link](./03 - Squares With Three Sides.py), [numpy](./03 - Squares With Three Sides - numpy.py)
 Dec 04 | Security Through Obscurity | [link](http://adventofcode.com/2016/day/4) | [link](./04 - Security Through Obscurity.py)
 Dec 05 | How About a Nice Game of Chess | [link](http://adventofcode.com/2016/day/5) | [link](./05 - How About a Nice Game of Chess.py)
+Dec 06 | Signals and Noise | [link](http://adventofcode.com/2016/day/6) | [link](./06 - Signals and Noise.py)
