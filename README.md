@@ -17,3 +17,4 @@ Dec 03 | Squares With Three Sides | [link](http://adventofcode.com/2016/day/3) |
 Dec 04 | Security Through Obscurity | [link](http://adventofcode.com/2016/day/4) | [link](./04 - Security Through Obscurity.py)
 Dec 05 | How About a Nice Game of Chess | [link](http://adventofcode.com/2016/day/5) | [link](./05 - How About a Nice Game of Chess.py)
 Dec 06 | Signals and Noise | [link](http://adventofcode.com/2016/day/6) | [link](./06 - Signals and Noise.py)
+Dec 07 | Internet Protocol Version 7 | [link](http://adventofcode.com/2016/day/6) | [link](./07 - Internet Protocol Version 7.py)
