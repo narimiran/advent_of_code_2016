@@ -9,12 +9,13 @@ Comments, suggestions and critiques are welcome.
 
 ## Puzzles
 
-Date | Name | Puzzle | Solutions
+Date | Puzzle | Solutions
 --- | --- | --- | ---
-Dec 01 | No Time for a Taxicab | [link](http://adventofcode.com/2016/day/1) | [link](./01 - No Time for a Taxicab.py)
-Dec 02 | Bathroom Security | [link](http://adventofcode.com/2016/day/2) | [link](./02 - Bathroom Security.py)
-Dec 03 | Squares With Three Sides | [link](http://adventofcode.com/2016/day/3) | [link](./03 - Squares With Three Sides.py), [numpy](./03 - Squares With Three Sides - numpy.py)
-Dec 04 | Security Through Obscurity | [link](http://adventofcode.com/2016/day/4) | [link](./04 - Security Through Obscurity.py)
-Dec 05 | How About a Nice Game of Chess | [link](http://adventofcode.com/2016/day/5) | [link](./05 - How About a Nice Game of Chess.py)
-Dec 06 | Signals and Noise | [link](http://adventofcode.com/2016/day/6) | [link](./06 - Signals and Noise.py)
-Dec 07 | Internet Protocol Version 7 | [link](http://adventofcode.com/2016/day/6) | [link](./07 - Internet Protocol Version 7.py)
+Dec 01 | [No Time for a Taxicab](http://adventofcode.com/2016/day/1) | [link](./01 - No Time for a Taxicab.py)
+Dec 02 | [Bathroom Security](http://adventofcode.com/2016/day/2) | [link](./02 - Bathroom Security.py)
+Dec 03 | [Squares With Three Sides](http://adventofcode.com/2016/day/3) | [link](./03 - Squares With Three Sides.py), [numpy](./03 - Squares With Three Sides - numpy.py)
+Dec 04 | [Security Through Obscurity](http://adventofcode.com/2016/day/4) | [link](./04 - Security Through Obscurity.py)
+Dec 05 | [How About a Nice Game of Chess](http://adventofcode.com/2016/day/5) | [link](./05 - How About a Nice Game of Chess.py)
+Dec 06 | [Signals and Noise](http://adventofcode.com/2016/day/6) | [link](./06 - Signals and Noise.py)
+Dec 07 | [Internet Protocol Version 7](http://adventofcode.com/2016/day/6) | [link](./07 - Internet Protocol Version 7.py)
+Dec 08 | [Two-Factor Authentication](http://adventofcode.com/2016/day/6) | [link](./08 - Two-Factor Authentication.py)
