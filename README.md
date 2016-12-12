@@ -20,3 +20,4 @@ Dec 06 | [Signals and Noise](http://adventofcode.com/2016/day/6) | [link](./06 -
 Dec 07 | [Internet Protocol Version 7](http://adventofcode.com/2016/day/7) | [link](./07 - Internet Protocol Version 7.py)
 Dec 08 | [Two-Factor Authentication](http://adventofcode.com/2016/day/8) | [link](./08 - Two-Factor Authentication.py)
 Dec 09 | [Explosives in Cyberspace](http://adventofcode.com/2016/day/9) | [link](./09 - Explosives in Cyberspace.py)
+Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](./10 - Balance Bots.py)
