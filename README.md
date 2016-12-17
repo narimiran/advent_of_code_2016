@@ -21,3 +21,4 @@ Dec 07 | [Internet Protocol Version 7](http://adventofcode.com/2016/day/7) | [li
 Dec 08 | [Two-Factor Authentication](http://adventofcode.com/2016/day/8) | [link](./08 - Two-Factor Authentication.py)
 Dec 09 | [Explosives in Cyberspace](http://adventofcode.com/2016/day/9) | [link](./09 - Explosives in Cyberspace.py)
 Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](./10 - Balance Bots.py)
+Dec 11 | [Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [link](./11 - Radioisotope Thermoelectric Generators.py)
