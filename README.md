@@ -23,3 +23,4 @@ Dec 09 | [Explosives in Cyberspace](http://adventofcode.com/2016/day/9) | [link]
 Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](./10 - Balance Bots.py)
 Dec 11 | [Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [link](./11 - Radioisotope Thermoelectric Generators.py)
 Dec 12 | [Leonardo's Monorail](http://adventofcode.com/2016/day/12) | [link](./12 - Leonardo's Monorail.py)
+Dec 13 | [A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13) | [link](./13 - A Maze of Twisty Little Cubicles.py)
