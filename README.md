@@ -28,5 +28,6 @@ Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](./10 - Bal
 Dec 11 | [Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [link](./11 - Radioisotope Thermoelectric Generators.py)
 Dec 12 | [Leonardo's Monorail](http://adventofcode.com/2016/day/12) | [link](./12 - Leonardo's Monorail.py)
 Dec 13 | [A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13) | [link](./13 - A Maze of Twisty Little Cubicles.py)
+Dec 14 | [One-Time Pad](http://adventofcode.com/2016/day/14) | [link](./14 - One-Time Pad.py)
 ... | ... | ...
 Dec 18 | [Like a Rogue](http://adventofcode.com/2016/day/18) | [link](./18 - Like a Rogue.py)
