@@ -1,9 +1,13 @@
 # Advent of Code 2016
 
 Here's my repository for the puzzles available at [Advent of Code](http://adventofcode.com/).  
-I'll try to solve/publish solutions every day, as the puzzles become available, but there might come a day when I have no time for solving the puzzles and/or don't have a clue how to solve them :)
+I'll try to solve/publish solutions every day, as the puzzles become available, but there might come a day (*) when I have no time for solving the puzzles and/or don't have a clue how to solve them :)
 
-Comments, suggestions and critiques are welcome.
+(*) Looking at you, [Dec 11](http://adventofcode.com/2016/day/11)! Currently trying to catch-up with the tasks.
+
+&nbsp;
+
+**Comments, suggestions and critiques are welcome.**
 
 &nbsp;
 
@@ -24,3 +28,5 @@ Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](./10 - Bal
 Dec 11 | [Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [link](./11 - Radioisotope Thermoelectric Generators.py)
 Dec 12 | [Leonardo's Monorail](http://adventofcode.com/2016/day/12) | [link](./12 - Leonardo's Monorail.py)
 Dec 13 | [A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13) | [link](./13 - A Maze of Twisty Little Cubicles.py)
+... | ... | ...
+Dec 18 | [Like a Rogue](http://adventofcode.com/2016/day/18) | [link](./18 - Like a Rogue.py)
