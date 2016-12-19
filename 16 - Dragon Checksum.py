@@ -13,7 +13,7 @@ def fill_disk(data, disk_size):
 
 def create_checksum(data):
     while len(data) % 2 == 0:
-        data = [data[i-1] == data[i] for i in range(1, len(data), 2)]
+        data = [a == b for a, b in zip(data[::2], data[1::2])]
     return ''.join(map(str, map(int, data)))
 
 
