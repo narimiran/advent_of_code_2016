@@ -31,5 +31,5 @@ Dec 13 | [A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13)
 Dec 14 | [One-Time Pad](http://adventofcode.com/2016/day/14) | [link](./14 - One-Time Pad.py)
 Dec 15 | [Timing is Everything](http://adventofcode.com/2016/day/15) | [link](./15 - Timing is Everything.py)
 Dec 16 | [Dragon Checksum](http://adventofcode.com/2016/day/16) | [link](./16 - Dragon Checksum.py)
-... | ... | ...
+Dec 17 | [Two Steps Forward](http://adventofcode.com/2016/day/17) | [link](./17 - Two Steps Forward.py)
 Dec 18 | [Like a Rogue](http://adventofcode.com/2016/day/18) | [link](./18 - Like a Rogue.py)
