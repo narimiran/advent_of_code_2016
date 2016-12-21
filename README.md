@@ -34,3 +34,4 @@ Dec 16 | [Dragon Checksum](http://adventofcode.com/2016/day/16) | [link](./16 - 
 Dec 17 | [Two Steps Forward](http://adventofcode.com/2016/day/17) | [link](./17 - Two Steps Forward.py)
 Dec 18 | [Like a Rogue](http://adventofcode.com/2016/day/18) | [link](./18 - Like a Rogue.py)
 Dec 19 | [An Elephant Named Joseph](http://adventofcode.com/2016/day/19) | [link](./19 - An Elephant Named Joseph.py)
+Dec 20 | [Firewall Rules](http://adventofcode.com/2016/day/19) | [link](./20 - Firewall Rules.py)
