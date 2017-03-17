@@ -1,4 +1,4 @@
-with open('./01 - No Time for a Taxicab.txt', 'r') as infile:
+with open('./sources/01 - No Time for a Taxicab.txt', 'r') as infile:
     directions = infile.read().strip().split(', ')
 
 ROTATION = {

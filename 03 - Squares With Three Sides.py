@@ -1,4 +1,4 @@
-with open('./03 - Squares With Three Sides.txt', 'r') as infile:
+with open('./sources/03 - Squares With Three Sides.txt', 'r') as infile:
     triangles = infile.read().split('\n')
 
 horizontal = [[int(side) for side in sides.split()] for sides in triangles]

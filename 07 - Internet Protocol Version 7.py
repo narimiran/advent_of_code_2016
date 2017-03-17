@@ -1,6 +1,6 @@
 import re
 
-with open('./07 - Internet Protocol Version 7.txt', 'r') as infile:
+with open('./sources/07 - Internet Protocol Version 7.txt', 'r') as infile:
     addresses = infile.readlines()
 
 addresses_separated = [re.split(r'\[|\]', line.strip()) for line in addresses]

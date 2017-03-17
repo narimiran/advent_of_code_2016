@@ -1,6 +1,6 @@
 import re
 
-with open('./09 - Explosives in Cyberspace.txt', 'r') as infile:
+with open('./sources/09 - Explosives in Cyberspace.txt', 'r') as infile:
     compressed = infile.read()
 
 

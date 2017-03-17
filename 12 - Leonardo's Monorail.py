@@ -1,4 +1,4 @@
-with open("./12 - Leonardo's Monorail.txt", 'r') as infile:
+with open("./sources/12 - Leonardo's Monorail.txt", 'r') as infile:
     instructions = infile.read().splitlines()
 
 

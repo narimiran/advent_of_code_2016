@@ -1,4 +1,4 @@
-with open('./20 - Firewall Rules.txt', 'r') as infile:
+with open('./sources/20 - Firewall Rules.txt', 'r') as infile:
     addresses = infile.read().split('\n')
 
 ips = sorted([tuple(map(int, address.split('-'))) for address in addresses])

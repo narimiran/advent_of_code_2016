@@ -1,6 +1,6 @@
 import re
 
-with open('./15 - Timing is Everything.txt', 'r') as infile:
+with open('./sources/15 - Timing is Everything.txt', 'r') as infile:
     instructions = infile.read().split('\n')
 
 discs = []

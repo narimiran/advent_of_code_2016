@@ -1,4 +1,4 @@
-with open("./18 - Like a Rogue.txt", 'r') as infile:
+with open('./sources/18 - Like a Rogue.txt', 'r') as infile:
     first_row = infile.read()
 
 

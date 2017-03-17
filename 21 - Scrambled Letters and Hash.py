@@ -1,4 +1,4 @@
-with open('./21 - Scrambled Letters and Hash.txt', 'r') as infile:
+with open('./sources/21 - Scrambled Letters and Hash.txt', 'r') as infile:
     INSTRUCTIONS = infile.read().split('\n')
 
 

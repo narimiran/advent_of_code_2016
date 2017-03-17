@@ -1,6 +1,6 @@
 import numpy as np
 
-in_ = np.loadtxt('./03 - Squares With Three Sides.txt')
+in_ = np.loadtxt('./sources/03 - Squares With Three Sides.txt')
 
 def find_triangles(arr):
     arr.sort(axis=1)

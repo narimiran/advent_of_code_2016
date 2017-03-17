@@ -1,4 +1,4 @@
-with open('./02 - Bathroom Security.txt', 'r') as infile:
+with open('./sources/02 - Bathroom Security.txt', 'r') as infile:
     directions = infile.read().strip().split('\n')
 
 deltas = {

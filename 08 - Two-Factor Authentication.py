@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open('./08 - Two-Factor Authentication.txt', 'r') as infile:
+with open('./sources/08 - Two-Factor Authentication.txt', 'r') as infile:
     instructions = infile.read().split('\n')
 
 lcd = np.zeros((6, 50))

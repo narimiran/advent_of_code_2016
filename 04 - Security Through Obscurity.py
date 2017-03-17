@@ -1,4 +1,4 @@
-with open('./04 - Security Through Obscurity.txt', 'r') as infile:
+with open('./sources/04 - Security Through Obscurity.txt', 'r') as infile:
     all_rooms = infile.read().split('\n')
 
 names = [room[:-11].replace('-', '') for room in all_rooms]
