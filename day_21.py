@@ -88,6 +88,6 @@ hashed.scramble()
 
 print("OK, I have scrambling instructions in front of me, let's try this.")
 print('The scrambled version of "abcdefgh" is: {}.'.format(plain))
-print()
+print('....')
 print('This works, but I need to unscramble "fbgdceah".')
 print('This is {} in plain text.'.format(hashed))

@@ -58,6 +58,6 @@ def execute(a):
 print('Assembunny code again? Not a problem for me.')
 print('If I start with 7 eggs in the register a, '
       'I get {} as a final value for that register.'.format(execute(a=7)))
-print()
+print('....')
 print('Oh! I should have started with 12 eggs in the register a!')
 print('Then I get {} as a final value.'.format(execute(a=12)))

@@ -38,3 +38,4 @@ Dec 20 | [Firewall Rules](http://adventofcode.com/2016/day/20) | [link](day_20.p
 Dec 21 | [Scrambled Letters and Hash](http://adventofcode.com/2016/day/21) | [link](day_21.py)
 Dec 22 | [Grid Computing](http://adventofcode.com/2016/day/22) | -
 Dec 23 | [Safe Cracking](http://adventofcode.com/2016/day/23) | [link](day_23.py)
+Dec 24 | [Air Duct Spelunking](http://adventofcode.com/2016/day/24) | [link](day_24.py)
