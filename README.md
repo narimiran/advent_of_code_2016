@@ -36,6 +36,6 @@ Dec 18 | [Like a Rogue](http://adventofcode.com/2016/day/18) | [link](day_18.py)
 Dec 19 | [An Elephant Named Joseph](http://adventofcode.com/2016/day/19) | [link](day_19.py)
 Dec 20 | [Firewall Rules](http://adventofcode.com/2016/day/20) | [link](day_20.py)
 Dec 21 | [Scrambled Letters and Hash](http://adventofcode.com/2016/day/21) | [link](day_21.py)
-Dec 22 | [Grid Computing](http://adventofcode.com/2016/day/22) | -
+Dec 22 | [Grid Computing](http://adventofcode.com/2016/day/22) | [link](day_22.py)
 Dec 23 | [Safe Cracking](http://adventofcode.com/2016/day/23) | [link](day_23.py)
 Dec 24 | [Air Duct Spelunking](http://adventofcode.com/2016/day/24) | [link](day_24.py)
