@@ -1,9 +1,9 @@
 # Advent of Code 2016
 
-Here's my repository for the puzzles available at [Advent of Code](http://adventofcode.com/).  
-I'll try to solve/publish solutions every day, as the puzzles become available, but there might come a day (*) when I have no time for solving the puzzles and/or don't have a clue how to solve them :)
+Here's my repository for the puzzles available at [Advent of Code](http://adventofcode.com/).
 
-(*) Looking at you, [Dec 11](http://adventofcode.com/2016/day/11)! Currently trying to catch-up with the tasks.
+First ten puzzles were solved as they were published, then came the infamous [Dec 11 task](http://adventofcode.com/2016/day/11), which crushed my hopes and motivation.  
+After some desparation, I've managed to solve first 20 puzzles before Christmas, then took a long break and finished all challenges on March 19th 2017.
 
 &nbsp;
 
