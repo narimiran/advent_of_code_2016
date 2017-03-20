@@ -1,5 +1,5 @@
 with open('./sources/01 - No Time for a Taxicab.txt', 'r') as infile:
-    directions = infile.read().strip().split(', ')
+    directions = infile.readline().split(', ')
 
 ROTATION = {
     'L': 1j,
@@ -14,7 +14,7 @@ passed_twice = False
 
 
 def find_manhattan(loc):
-    return abs(loc.real) + abs(loc.imag)
+    return int(abs(loc.real) + abs(loc.imag))
 
 
 for instruction in directions:
@@ -24,12 +24,13 @@ for instruction in directions:
     for _ in range(dist):
         location += current_direction
         if not passed_twice and location in visited_locations:
-            print("This looks familiar!\n"
-                  "I must have been at {} before!".format(location))
-            print("Distance from the start:", find_manhattan(location))
+            print("This looks familiar! "
+                  f"I must have been at {location} before!")
+            print("The distance from the start is:", find_manhattan(location))
             passed_twice = True
         else:
             visited_locations.add(location)
 
-print("\nOk, I've come to the end of your instructions and I'm at:", location)
-print("That's {} blocks away from the the start.".format(find_manhattan(location)))
+print('....')
+print("Ok, I've come to the end of your instructions and I'm at:", location)
+print(f"That's {find_manhattan(location)} blocks away from the the start.")
