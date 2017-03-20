@@ -1,7 +1,7 @@
 with open('./sources/02 - Bathroom Security.txt', 'r') as infile:
-    directions = infile.read().strip().split('\n')
+    puzzle = infile.readlines()
 
-deltas = {
+DIRECTIONS = {
     'R': 1,
     'L': -1,
     'D': 1j,
@@ -23,39 +23,38 @@ KEYPAD_2 = [
 ]
 
 
-def is_inside(pos, second_part):
-    if not second_part:
-        return abs(pos.real) <= 1 and abs(pos.imag) <= 1
-    else:
-        return abs(pos.real) + abs(pos.imag) <= 2
-
-
-def get_key(pos, k_pad):
-    return k_pad[int(pos.imag)][int(pos.real)]
-
-
 def find_solutions(second_part=False):
+    def is_inside(pos):
+        if not second_part:
+            return all(abs(coord) <= 1 for coord in {pos.real, pos.imag})
+        else:
+            return abs(pos.real) + abs(pos.imag) <= 2
+
+    def get_key(pos):
+        return str(keypad[int(pos.imag)][int(pos.real)])
+
+
     if not second_part:
-        pos = 0+0j      # start from 5, in the center
+        keypad = KEYPAD_1
+        offset = 1+1j   # the center of the keypad
+        pos = 0+0j      # start from the 5, in the center
     else:
-        pos = -2+0j     # start from 5, two left from the center
+        keypad = KEYPAD_2
+        offset = 2+2j   # the center of the keypad
+        pos = -2+0j     # start from the 5, two left from the center
 
     key_positions = []
-    for line in directions:
-        for c in line:
-            new = pos + deltas[c]
-            if is_inside(new, second_part):
-                pos = new
+    for line in puzzle:
+        for direction in line.strip():
+            new = pos + DIRECTIONS[direction]
+            pos = new if is_inside(new) else pos
         key_positions.append(pos)
 
-    if not second_part:
-        return [get_key(pos+(1+1j), KEYPAD_1) for pos in key_positions]
-    else:
-        return [get_key(pos+(2+2j), KEYPAD_2) for pos in key_positions]
+    return ''.join(get_key(pos+offset) for pos in key_positions)
+
 
 print("Ok, I've memorized the bathroom code:", find_solutions())
 print('....')
-
 print("Hmmm, this well-designed keypad is not the one I was expecting.")
 print("But let me try to open it with the same instuctions as before.")
-print("Here's the new code: {}".format(find_solutions(second_part=True)))
+print("Here's the new code:", find_solutions(second_part=True))
