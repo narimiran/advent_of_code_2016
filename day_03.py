@@ -1,8 +1,10 @@
-with open('./sources/03 - Squares With Three Sides.txt', 'r') as infile:
-    triangles = infile.read().split('\n')
+from itertools import chain
 
-horizontal = [[int(side) for side in sides.split()] for sides in triangles]
-vertical = list(zip(*horizontal))
+with open('./sources/03 - Squares With Three Sides.txt', 'r') as infile:
+    puzzle = infile.readlines()
+
+horizontal = [[int(value) for value in row.split()] for row in puzzle]
+vertical = list(chain.from_iterable(zip(*horizontal)))
 
 
 def is_triangle(sides):
@@ -11,18 +13,15 @@ def is_triangle(sides):
 
 
 def find_triangles(candidates, second_part=False):
-    solution = []
     if not second_part:
-        for row in candidates:
-            solution.append(is_triangle(row))
+        return sum(is_triangle(row) for row in candidates)
     else:
-        for col in candidates:
-            for i in range(0, len(col)-2, 3):
-                solution.append(is_triangle(col[i:i+3]))
-    return sum(solution)
+        return sum(is_triangle(candidates[i:i+3])
+                   for i in range(0, len(candidates)-2, 3))
+
 
 print("Lots of potential triangles on the walls here.")
-print("Let me just quickly calculate their number: {}".format(find_triangles(horizontal)))
+print("Let me just quickly calculate their number:", find_triangles(horizontal))
 print('.....')
 print("But wait! Maybe they are drawn vertically?")
-print("Number of those triangles is: {}".format(find_triangles(vertical, True)))
+print("Number of those triangles is:", find_triangles(vertical, True))
