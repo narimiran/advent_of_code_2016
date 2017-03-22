@@ -1,7 +1,7 @@
 from collections import Counter
 
 with open('./sources/06 - Signals and Noise.txt', 'r') as infile:
-    noise = infile.read().split('\n')
+    noise = infile.readlines()
 
 columns = (''.join(column) for column in zip(*noise))
 
@@ -17,4 +17,4 @@ print("The message usually consists of the most frequent letters....")
 print("Then it must be:", first_solution)
 print("....")
 print("Or is it the least frequent letters? I never know....")
-print("It might be then", second_solution)
+print("It might be then:", second_solution)
