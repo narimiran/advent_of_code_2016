@@ -26,7 +26,7 @@ Dec 08 | [Two-Factor Authentication](http://adventofcode.com/2016/day/8) | [link
 Dec 09 | [Explosives in Cyberspace](http://adventofcode.com/2016/day/9) | [link](day_09.py)
 Dec 10 | [Balance Bots](http://adventofcode.com/2016/day/10) | [link](day_10.py)
 Dec 11 | [Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [link](day_11.py)
-Dec 12 | [Leonardo's Monorail](http://adventofcode.com/2016/day/12) | [link](day_12.py)
+Dec 12 | [Leonardo's Monorail](http://adventofcode.com/2016/day/12) | [link](day_12.py), [literal](day_12_literal.py)
 Dec 13 | [A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13) | [link](day_13.py)
 Dec 14 | [One-Time Pad](http://adventofcode.com/2016/day/14) | [link](day_14.py)
 Dec 15 | [Timing is Everything](http://adventofcode.com/2016/day/15) | [link](day_15.py)
