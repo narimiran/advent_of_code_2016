@@ -21,8 +21,8 @@ def is_solved(positions):
 
 
 def get_gcls(positions, l, s):
-    g = ''.join(map(str, positions[:len(positions)//2]))
-    c = ''.join(map(str, positions[len(positions)//2:]))
+    g = ''.join(map(str, positions[: len(positions)//2]))
+    c = ''.join(map(str, positions[len(positions)//2 :]))
     return g, c, l, s
 
 
@@ -74,6 +74,6 @@ first_solution = calculate_steps(gens='01111', chips='02222', lift=0, steps=0)
 second_solution = calculate_steps(gens='0001111', chips='0002222', lift=0, steps=0)
 
 print("I should bring all those things to 4th floor!")
-print("By my calculation, it should take no more than {} steps.".format(first_solution))
+print(f"By my calculation, it should take no more than {first_solution} steps.")
 print('....')
-print("Even if there were two more elements, it should be {} steps total.".format(second_solution))
+print(f"Even if there were two more elements, it should be {second_solution} steps total.")

@@ -45,7 +45,7 @@ while stack:
 a, b, c = (outputs[i][0] for i in '012')
 
 
-print("I'm Bot {}, and I'm responsible for microchips 17 and 61.".format(wanted_bot))
+print(f"I'm Bot {wanted_bot}, and I'm responsible for microchips 17 and 61.")
 print('....')
-print("Outputs zero, one, and two have values: {}, {}, and {}.".format(a, b, c))
-print("Did you know that if you multiply them, you get {}?".format(a*b*c))
+print(f"Outputs zero, one, and two have values: {a}, {b}, and {c}.")
+print(f"Did you know that if you multiply them, you get {a*b*c}?")

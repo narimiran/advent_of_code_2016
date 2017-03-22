@@ -19,7 +19,7 @@ def unzip(s, second_part=False):
 
 
 print("Let's do a quick decompression of this file....")
-print("Its decompressed size is {} characters.".format(unzip(compressed)))
+print(f"Its decompressed size is {unzip(compressed)} characters.")
 print('....')
 print("Hmmm, this still looks compressed. Let's decompress it fully.")
-print("Now it has {} characters.".format(unzip(compressed, second_part=True)))
+print(f"Now it has {unzip(compressed, second_part=True)} characters.")
