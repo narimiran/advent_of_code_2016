@@ -26,7 +26,7 @@ second_solution = sum(is_ababab(sup, hyp)
 
 
 print("Look at all those IP addresses. I wonder how many support TLS?")
-print("I would say somewhere around {} of them.".format(first_solution))
+print(f"I would say somewhere around {first_solution} of them.")
 print("....")
 print("And the number of addresses which support SSL?")
-print("Only {} support SSL out of {} total.".format(second_solution, len(addresses)))
+print(f"Only {second_solution} support SSL out of {len(addresses)} total.")
