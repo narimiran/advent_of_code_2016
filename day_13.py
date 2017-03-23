@@ -31,7 +31,7 @@ def run_through_maze(second_part=False):
 
 
 print("I'm really good with mazes!")
-print("I bet I can find cubicle {} in {} steps!".format(GOAL, run_through_maze()))
+print(f"I bet I can find cubicle {GOAL} in {run_through_maze()} steps!")
 print("....")
 print("Give me some time, and in just 50 steps from the start "
-      "I'll visit {} different cubicles!".format(run_through_maze('second')))
+      f"I'll visit {run_through_maze('second')} different cubicles!")

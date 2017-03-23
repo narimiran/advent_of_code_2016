@@ -30,7 +30,7 @@ def find_keys(second_part=False):
 
 
 print("I need to contact Santa, and I need MD5 keys for that.")
-print("He said to use 64th key, which is {}.".format(find_keys()))
+print(f"He said to use 64th key, which is {find_keys()}.")
 print("....")
 print("Wait, he said to encript this 2016 times!")
-print("Then the 64th key is {}.".format(find_keys(second_part=True)))
+print(f"Then the 64th key is {find_keys('second')}.")
