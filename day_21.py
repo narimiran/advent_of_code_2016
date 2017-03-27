@@ -3,9 +3,8 @@ with open('./sources/21 - Scrambled Letters and Hash.txt', 'r') as infile:
 
 
 class Scrambler:
-    def __init__(self, pw, direction):
+    def __init__(self, pw):
         self.pw = pw
-        self.direction = direction
 
     def __repr__(self):
         return ''.join(self.pw)
@@ -14,9 +13,7 @@ class Scrambler:
         self.pw[x_pos], self.pw[y_pos] = self.pw[y_pos], self.pw[x_pos]
 
     def swap_letters(self, x, y):
-        x_pos = self.pw.index(x)
-        y_pos = self.pw.index(y)
-        self.swap_positions(x_pos, y_pos)
+        self.swap_positions(self.pw.index(x), self.pw.index(y))
 
     def rotate(self, x_pos):
         x_pos %= len(self.pw)
@@ -28,16 +25,6 @@ class Scrambler:
             x_pos += 1
         self.rotate(x_pos + 1)
 
-    def reverse(self, x_pos, y_pos):
-        y_pos += 1
-        tmp = self.pw[x_pos:y_pos]
-        tmp.reverse()
-        self.pw[x_pos:y_pos] = tmp
-
-    def move(self, x_pos, y_pos):
-        x = self.pw.pop(x_pos)
-        self.pw.insert(y_pos, x)
-
     def derotate_letter(self, x):
         x_pos = self.pw.index(x)
         if x_pos % 2:
@@ -48,8 +35,17 @@ class Scrambler:
             rot = -1
         self.rotate(rot)
 
-    def scramble(self):
-        for instruction in INSTRUCTIONS[::self.direction]:
+    def reverse(self, x_pos, y_pos):
+        y_pos += 1
+        tmp = self.pw[x_pos:y_pos]
+        tmp.reverse()
+        self.pw[x_pos:y_pos] = tmp
+
+    def move(self, x_pos, y_pos):
+        self.pw.insert(y_pos, self.pw.pop(x_pos))
+
+    def scramble(self, direction=1):
+        for instruction in INSTRUCTIONS[::direction]:
             line = instruction.split()
             if instruction.startswith('swap'):
                 x, y = line[2], line[-1]
@@ -59,7 +55,7 @@ class Scrambler:
                     self.swap_letters(x, y)
             elif instruction.startswith('rotate'):
                 if line[1] == 'based':
-                    if self.direction > 0:
+                    if direction > 0:
                         self.rotate_letter(line[-1])
                     else:
                         self.derotate_letter(line[-1])
@@ -67,7 +63,7 @@ class Scrambler:
                     x_pos = int(line[2])
                     if line[1] == 'left':
                         x_pos *= -1
-                    if self.direction < 0:
+                    if direction < 0:
                         x_pos *= -1
                     self.rotate(x_pos)
             else:
@@ -76,18 +72,23 @@ class Scrambler:
                 if instruction.startswith('reverse'):
                     self.reverse(x_pos, y_pos)
                 else:
-                    if self.direction < 0:
+                    if direction < 0:
                         x_pos, y_pos = y_pos, x_pos
                     self.move(x_pos, y_pos)
+        return self
+
+    def unscramble(self):
+        return self.scramble(-1)
 
 
-plain = Scrambler(list('abcdefgh'), 1)
-plain.scramble()
-hashed = Scrambler(list('fbgdceah'), -1)
-hashed.scramble()
+plain = list('abcdefgh')
+hashed = list('fbgdceah')
+
+first_part = Scrambler(plain).scramble()
+second_part = Scrambler(hashed).unscramble()
 
 print("OK, I have scrambling instructions in front of me, let's try this.")
-print('The scrambled version of "abcdefgh" is: {}.'.format(plain))
+print(f'The scrambled version of "abcdefgh" is: {first_part}.')
 print('....')
 print('This works, but I need to unscramble "fbgdceah".')
-print('This is {} in plain text.'.format(hashed))
+print(f'This is {second_part} in plain text.')
