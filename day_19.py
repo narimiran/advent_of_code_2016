@@ -31,7 +31,7 @@ def new_rules(elves):
 elf_circle = np.arange(INPUT)
 
 print("Hey Elves, why don't you start playing the Yankee swap?")
-print("Who did you say won all presents, Elf {}?".format(find_elf(elf_circle)))
+print(f"Who did win all presents? Elf {find_elf(elf_circle)}?")
 print("....")
 print("Wait wait wait, you should take the present from the one across you!")
-print("Now the winner is who? Elf {}?".format(new_rules(elf_circle)))
+print(f"Who is the winner now? Elf {new_rules(elf_circle)}?")

@@ -36,7 +36,6 @@ def execute(a):
                 continue
 
         line += 1
-    return register['a']
 
 
 i = 0
@@ -47,4 +46,4 @@ while True:
     i += 1
 
 print("Let me try every number, starting from zero, brute forcing it.")
-print("The number I was looking for is: {}.".format(i))
+print("The number I was looking for is:", i)

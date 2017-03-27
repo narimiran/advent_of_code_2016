@@ -32,7 +32,7 @@ print(sorted(used)[:10])
 print("This means that only one disk can be used as a 'reciever'.")
 
 uss = np.array(used)
-print("There are {} viable pairs of nodes.".format(sum((uss <= 94) & (uss > 0))))
+print(f"There are {sum((uss <= 94) & (uss > 0))} viable pairs of nodes.")
 print('....')
 
 print('I should plot the map of this storage cluster!')
@@ -57,4 +57,4 @@ steps = get_manhattan(start, wall)
 steps += get_manhattan(wall, goal)
 steps += 5 * (goal[1] - 1)
 
-print('And all that would be {} steps.'.format(steps))
+print(f'And all that would be {steps} steps.')

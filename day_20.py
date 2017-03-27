@@ -21,6 +21,6 @@ def find_lowest(ips):
 first, second = find_lowest(ips)
 
 print("Let me search from the beginning and find first non-blocked IP")
-print("That's: {}.".format(first))
+print(f"That's: {first}.")
 print("....")
-print("But there are in total {} non-blocked IPs.".format(second))
+print(f"But there are in total {second} non-blocked IPs.")

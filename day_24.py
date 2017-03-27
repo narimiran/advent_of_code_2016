@@ -20,6 +20,7 @@ def bfs(start, goal):
                 que.append(((nx, ny), steps+1))
                 seen.add((nx, ny))
 
+
 def find_shortest(second_part=False):
     min_dist = 1e9
     for path in permutations(range(1, len(coordinates))):
@@ -51,8 +52,8 @@ for start in points[:-1]:
 
 print('Wow, this robot is very slow! '
       'I better find the shortest path from here to all needed locations.')
-print('That should be this path that takes {} steps.'.format(find_shortest()))
+print(f'That should be this path that takes {find_shortest()} steps.')
 print('....')
 print('Oh, I forgot my robot in the middle of the maze!')
 print("I'll send another one, let me just first recalculate the shortest path.")
-print('The shortest path with returning here takes {} steps.'.format(find_shortest(True)))
+print(f'The shortest path with returning here takes {find_shortest(2)} steps.')
