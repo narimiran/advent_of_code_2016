@@ -39,4 +39,4 @@ Dec 21 | [Scrambled Letters and Hash](http://adventofcode.com/2016/day/21) | [li
 Dec 22 | [Grid Computing](http://adventofcode.com/2016/day/22) | [link](day_22.py)
 Dec 23 | [Safe Cracking](http://adventofcode.com/2016/day/23) | [link](day_23.py), [literal](day_23_literal.py)
 Dec 24 | [Air Duct Spelunking](http://adventofcode.com/2016/day/24) | [link](day_24.py)
-Dec 25 | [CLock Signal](http://adventofcode.com/2016/day/25) | [link](day_25.py)
+Dec 25 | [Clock Signal](http://adventofcode.com/2016/day/25) | [link](day_25.py)
