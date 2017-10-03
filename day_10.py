@@ -15,8 +15,8 @@ bots = defaultdict(list)
 outputs = defaultdict(list)
 stack = []
 
-for line in initial:
-    value, name = int(line[1]), line[-1]
+
+def add_value(name, value):
     bots[name].append(value)
     if len(bots[name]) == 2:
         stack.append(name)
@@ -25,22 +25,24 @@ for line in initial:
 def send_value(connection, value):
     out_type, out_name = connection
     if out_type == 'bot':
-        bots[out_name].append(value)
-        if len(bots[out_name]) == 2:
-            stack.append(out_name)
+        add_value(out_name, value)
     else:
         outputs[out_name].append(value)
 
 
+for line in initial:
+    value, name = int(line[1]), line[-1]
+    add_value(name, value)
+
+
 while stack:
     name = stack.pop()
-    if len(bots[name]) == 2:
-        low_value, high_value = sorted(bots[name])
-        if low_value == 17 and high_value == 61:
-            wanted_bot = name
-        lower_connection, higher_connection = connections[name]
-        send_value(lower_connection, low_value)
-        send_value(higher_connection, high_value)
+    low_value, high_value = sorted(bots[name])
+    if low_value == 17 and high_value == 61:
+        wanted_bot = name
+    lower_connection, higher_connection = connections[name]
+    send_value(lower_connection, low_value)
+    send_value(higher_connection, high_value)
 
 a, b, c = (outputs[i][0] for i in '012')
 
