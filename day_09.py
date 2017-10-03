@@ -3,9 +3,10 @@ import re
 with open('./sources/09 - Explosives in Cyberspace.txt', 'r') as infile:
     compressed = infile.read()
 
+pattern = re.compile(r'\((\d+)x(\d+)\)')
 
 def unzip(s, second_part=False):
-    parens = re.search(r'\((\d+)x(\d+)\)', s)
+    parens = pattern.search(s)
     if not parens:
         return len(s)
     length = int(parens.group(1))
