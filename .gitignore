@@ -6,3 +6,17 @@
 .vscode/tasks.json
 .vscode/launch.json
 .vscode/extensions.json
+
+*.cm*
+_build
+.clj-kondo
+
+.cpcache
+.cache
+
+dune*
+.merlin
+
+
+*calva
+.nrepl*
