@@ -46,8 +46,8 @@
   (let [instructions (->> (aoc/read-input-line input :words)
                           (map parse-instruction))
         solution (traverse instructions)]
-    [(aoc/manhattan (:pos solution))
-     (aoc/manhattan (:hq solution))]))
+    (map aoc/manhattan
+         ((juxt :pos :hq) solution))))
 
 
 (solve 1)

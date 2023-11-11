@@ -3,15 +3,12 @@
             [clojure.string :as str]))
 
 
-(defn get-counts [s]
-  (->> (for [c (set s)] [(- (aoc/count-if #{c} s)) c])
-       (sort compare)))
-
 (defn valid-room? [[encrypted _ checksum]]
   (->> encrypted
-       get-counts
+       frequencies
+       (sort-by (juxt (comp - val) key))
        (take 5)
-       (map second)
+       (map key)
        (apply str)
        (= checksum)))
 
@@ -52,8 +49,7 @@
 
 (defn solve [input]
   (let [rooms (aoc/read-input input parse-line)]
-    [(part-1 rooms)
-     (part-2 rooms)]))
+    ((juxt part-1 part-2) rooms)))
 
 
 (solve 4)

@@ -63,8 +63,8 @@
 
 (defn solve [input]
   (let [instructions (aoc/read-input input parse-line)]
-    [(type-password instructions 1)
-     (type-password instructions 2)]))
+    (for [part [1 2]]
+      (type-password instructions part))))
 
 
 (solve 2)
