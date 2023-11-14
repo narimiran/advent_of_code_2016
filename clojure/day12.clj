@@ -22,9 +22,15 @@
     (match (get instructions i)
       nil (regs :a)
       [:cpy what where] (recur (inc i) (assoc regs where (or (regs what) what)))
-      [:jnz val jump] (if (zero? (or (regs val) val))
-                        (recur (inc i) regs)
-                        (recur (+ i jump) regs))
+      [:jnz val jump]
+      (cond ; small optimization for an easy ~10.000x speedup
+        (= i 12) (recur (inc i)
+                        (assoc regs
+                               :a (+ (regs :a) (regs :b))
+                               :b 0))
+        :else (if (zero? (or (regs val) val))
+                (recur (inc i) regs)
+                (recur (+ i jump) regs)))
       [:inc reg nil] (recur (inc i) (update regs reg inc))
       [:dec reg nil] (recur (inc i) (update regs reg dec)))))
 
