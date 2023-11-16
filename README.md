@@ -40,18 +40,18 @@ Task                                                                            
 [Dec 08: Two-Factor Authentication](http://adventofcode.com/2016/day/8)               | [day_08.py](python/day_08.py)                                      | [day08.clj](clojure/day08.clj)
 [Dec 09: Explosives in Cyberspace](http://adventofcode.com/2016/day/9)                | [day_09.py](python/day_09.py)                                      | [day09.clj](clojure/day09.clj)
 [Dec 10: Balance Bots](http://adventofcode.com/2016/day/10)                           | [day_10.py](python/day_10.py)                                      | [day10.clj](clojure/day10.clj)
-[Dec 11: Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [day_11.py](python/day_11.py)                                      | 
-[Dec 12: Leonardo's Monorail](http://adventofcode.com/2016/day/12)                    | [day_12.py](python/day_12.py), [literal](python/day_12_literal.py) | 
-[Dec 13: A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13)       | [day_13.py](python/day_13.py)                                      | 
-[Dec 14: One-Time Pad](http://adventofcode.com/2016/day/14)                           | [day_14.py](python/day_14.py)                                      | 
-[Dec 15: Timing is Everything](http://adventofcode.com/2016/day/15)                   | [day_15.py](python/day_15.py)                                      | 
-[Dec 16: Dragon Checksum](http://adventofcode.com/2016/day/16)                        | [day_16.py](python/day_16.py)                                      | 
-[Dec 17: Two Steps Forward](http://adventofcode.com/2016/day/17)                      | [day_17.py](python/day_17.py)                                      | 
-[Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      | 
-[Dec 19: An Elephant Named Joseph](http://adventofcode.com/2016/day/19)               | [day_19.py](python/day_19.py)                                      | 
-[Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      | 
-[Dec 21: Scrambled Letters and Hash](http://adventofcode.com/2016/day/21)             | [day_21.py](python/day_21.py)                                      | 
-[Dec 22: Grid Computing](http://adventofcode.com/2016/day/22)                         | [day_22.py](python/day_22.py)                                      | 
-[Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) | 
-[Dec 24: Air Duct Spelunking](http://adventofcode.com/2016/day/24)                    | [day_24.py](python/day_24.py)                                      | 
-[Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      | 
+[Dec 11: Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [day_11.py](python/day_11.py)                                      | [day11.clj](clojure/day11.clj)
+[Dec 12: Leonardo's Monorail](http://adventofcode.com/2016/day/12)                    | [day_12.py](python/day_12.py), [literal](python/day_12_literal.py) | [day12.clj](clojure/day12.clj)
+[Dec 13: A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13)       | [day_13.py](python/day_13.py)                                      | [day13.clj](clojure/day13.clj)
+[Dec 14: One-Time Pad](http://adventofcode.com/2016/day/14)                           | [day_14.py](python/day_14.py)                                      |
+[Dec 15: Timing is Everything](http://adventofcode.com/2016/day/15)                   | [day_15.py](python/day_15.py)                                      | [day15.clj](clojure/day15.clj)
+[Dec 16: Dragon Checksum](http://adventofcode.com/2016/day/16)                        | [day_16.py](python/day_16.py)                                      |
+[Dec 17: Two Steps Forward](http://adventofcode.com/2016/day/17)                      | [day_17.py](python/day_17.py)                                      |
+[Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      |
+[Dec 19: An Elephant Named Joseph](http://adventofcode.com/2016/day/19)               | [day_19.py](python/day_19.py)                                      |
+[Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      |
+[Dec 21: Scrambled Letters and Hash](http://adventofcode.com/2016/day/21)             | [day_21.py](python/day_21.py)                                      |
+[Dec 22: Grid Computing](http://adventofcode.com/2016/day/22)                         | [day_22.py](python/day_22.py)                                      |
+[Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) |
+[Dec 24: Air Duct Spelunking](http://adventofcode.com/2016/day/24)                    | [day_24.py](python/day_24.py)                                      |
+[Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      |
