@@ -47,7 +47,7 @@ Task                                                                            
 [Dec 15: Timing is Everything](http://adventofcode.com/2016/day/15)                   | [day_15.py](python/day_15.py)                                      | [day15.clj](clojure/day15.clj)
 [Dec 16: Dragon Checksum](http://adventofcode.com/2016/day/16)                        | [day_16.py](python/day_16.py)                                      |
 [Dec 17: Two Steps Forward](http://adventofcode.com/2016/day/17)                      | [day_17.py](python/day_17.py)                                      |
-[Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      |
+[Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      | [day18.clj](clojure/day18.clj)
 [Dec 19: An Elephant Named Joseph](http://adventofcode.com/2016/day/19)               | [day_19.py](python/day_19.py)                                      |
 [Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      |
 [Dec 21: Scrambled Letters and Hash](http://adventofcode.com/2016/day/21)             | [day_21.py](python/day_21.py)                                      |
