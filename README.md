@@ -49,7 +49,7 @@ Task                                                                            
 [Dec 17: Two Steps Forward](http://adventofcode.com/2016/day/17)                      | [day_17.py](python/day_17.py)                                      |
 [Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      | [day18.clj](clojure/day18.clj)
 [Dec 19: An Elephant Named Joseph](http://adventofcode.com/2016/day/19)               | [day_19.py](python/day_19.py)                                      |
-[Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      |
+[Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      | [day20.clj](clojure/day20.clj)
 [Dec 21: Scrambled Letters and Hash](http://adventofcode.com/2016/day/21)             | [day_21.py](python/day_21.py)                                      |
 [Dec 22: Grid Computing](http://adventofcode.com/2016/day/22)                         | [day_22.py](python/day_22.py)                                      |
 [Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) |
