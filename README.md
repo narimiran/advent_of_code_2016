@@ -11,6 +11,7 @@ All my Advent of Code repos:
 * [AoC 2021 in Python, Racket](https://github.com/narimiran/AdventOfCode2021)
 * [AoC 2022 in Python, Clojure](https://github.com/narimiran/AdventOfCode2022)
 
+
 &nbsp;
 
 
@@ -25,7 +26,12 @@ Comments, suggestions and critiques are welcome.
 &nbsp;
 
 
-2023 update: I solved several tasks in Clojure in November 2023, as a preparation for AoC 2023.
+2023 update:
+- I solved several tasks in Clojure in November 2023, as a preparation for AoC 2023.
+- I also did some visualizations. See below for gifs.
+
+
+&nbsp;
 
 
 Task                                                                                  | Python                                                             | Clojure
@@ -55,3 +61,18 @@ Task                                                                            
 [Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) |
 [Dec 24: Air Duct Spelunking](http://adventofcode.com/2016/day/24)                    | [day_24.py](python/day_24.py)                                      |
 [Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      |
+
+
+&nbsp;
+
+
+## Visualizations
+
+Visualizations were done in Clojure, using `quil` library, and then converted to gif via ImageMagick.
+
+
+### Day 1
+
+![day01.gif](https://i.imgur.com/xT8mdWS.gif)
+
+Source: [day01_viz.clj](clojure/day01_viz.clj)
