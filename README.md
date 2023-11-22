@@ -36,8 +36,8 @@ Comments, suggestions and critiques are welcome.
 
 Task                                                                                  | Python                                                             | Clojure
 ---                                                                                   | ---                                                                | ---
-[Dec 01: No Time for a Taxicab](http://adventofcode.com/2016/day/1)                   | [day_01.py](python/day_01.py)                                      | [day01.clj](clojure/day01.clj)
-[Dec 02: Bathroom Security](http://adventofcode.com/2016/day/2)                       | [day_02.py](python/day_02.py)                                      | [day02.clj](clojure/day02.clj)
+[Dec 01: No Time for a Taxicab](http://adventofcode.com/2016/day/1)                   | [day_01.py](python/day_01.py)                                      | [day01.clj](clojure/day01.clj), [day01_viz.clj](clojure/day01_viz.clj)
+[Dec 02: Bathroom Security](http://adventofcode.com/2016/day/2)                       | [day_02.py](python/day_02.py)                                      | [day02.clj](clojure/day02.clj), [day02_viz.clj](clojure/day02_viz.clj)
 [Dec 03: Squares With Three Sides](http://adventofcode.com/2016/day/3)                | [day_03.py](python/day_03.py), [numpy](python/day_03_numpy.py)     | [day03.clj](clojure/day03.clj)
 [Dec 04: Security Through Obscurity](http://adventofcode.com/2016/day/4)              | [day_04.py](python/day_04.py)                                      | [day04.clj](clojure/day04.clj)
 [Dec 05: How About a Nice Game of Chess](http://adventofcode.com/2016/day/5)          | [day_05.py](python/day_05.py)                                      |
@@ -76,3 +76,11 @@ Visualizations were done in Clojure, using `quil` library, and then converted to
 ![day01.gif](https://i.imgur.com/xT8mdWS.gif)
 
 Source: [day01_viz.clj](clojure/day01_viz.clj)
+
+
+
+### Day 2
+
+![day02.gif](https://i.imgur.com/qkWz2zR.gif)
+
+Source: [day02_viz.clj](clojure/day02_viz.clj)

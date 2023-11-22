@@ -45,8 +45,8 @@
           1 {:keypad keypad-1 :valid? p1-inbounds? :start [0 0]  :offset [1 1]}
           2 {:keypad keypad-2 :valid? p2-inbounds? :start [-2 0] :offset [2 2]})]
     (->> instructions
-         (reduce (fn [pos instr]
-                   (conj pos (press (peek pos) instr valid?)))
+         (reduce (fn [pressed-keys instr]
+                   (conj pressed-keys (press (peek pressed-keys) instr valid?)))
                  [start])
          rest
          (map (partial coord->key keypad offset))
@@ -58,7 +58,7 @@
         \R :right
         \U :up
         \D :down}
-       (vec line)))
+       line))
 
 
 (defn solve [input]
