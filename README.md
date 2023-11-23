@@ -3,7 +3,7 @@
 All my Advent of Code repos:
 
 * [AoC 2015 in Nim, Python](https://github.com/narimiran/advent_of_code_2015)
-* [AoC 2016 in Python and Clojure](https://github.com/narimiran/advent_of_code_2016) (this repo)
+* [AoC 2016 in Python, Clojure](https://github.com/narimiran/advent_of_code_2016) (this repo)
 * [AoC 2017 in Nim, OCaml, Python](https://github.com/narimiran/AdventOfCode2017)
 * [AoC 2018 in Nim, Python, Racket](https://github.com/narimiran/AdventOfCode2018)
 * [AoC 2019 in OCaml, Python](https://github.com/narimiran/AdventOfCode2019)
@@ -58,7 +58,7 @@ Task                                                                            
 [Dec 20: Firewall Rules](http://adventofcode.com/2016/day/20)                         | [day_20.py](python/day_20.py)                                      | [day20.clj](clojure/day20.clj)
 [Dec 21: Scrambled Letters and Hash](http://adventofcode.com/2016/day/21)             | [day_21.py](python/day_21.py)                                      |
 [Dec 22: Grid Computing](http://adventofcode.com/2016/day/22)                         | [day_22.py](python/day_22.py)                                      |
-[Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) |
+[Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) | [day23.clj](clojure/day23.clj)
 [Dec 24: Air Duct Spelunking](http://adventofcode.com/2016/day/24)                    | [day_24.py](python/day_24.py)                                      |
 [Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      |
 
