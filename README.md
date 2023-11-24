@@ -43,7 +43,7 @@ Task                                                                            
 [Dec 05: How About a Nice Game of Chess](http://adventofcode.com/2016/day/5)          | [day_05.py](python/day_05.py)                                      |
 [Dec 06: Signals and Noise](http://adventofcode.com/2016/day/6)                       | [day_06.py](python/day_06.py)                                      | [day06.clj](clojure/day06.clj)
 [Dec 07: Internet Protocol Version 7](http://adventofcode.com/2016/day/7)             | [day_07.py](python/day_07.py)                                      | [day07.clj](clojure/day07.clj)
-[Dec 08: Two-Factor Authentication](http://adventofcode.com/2016/day/8)               | [day_08.py](python/day_08.py)                                      | [day08.clj](clojure/day08.clj)
+[Dec 08: Two-Factor Authentication](http://adventofcode.com/2016/day/8)               | [day_08.py](python/day_08.py)                                      | [day08.clj](clojure/day08.clj), [day08_viz.clj](clojure/day08_viz.clj)
 [Dec 09: Explosives in Cyberspace](http://adventofcode.com/2016/day/9)                | [day_09.py](python/day_09.py)                                      | [day09.clj](clojure/day09.clj)
 [Dec 10: Balance Bots](http://adventofcode.com/2016/day/10)                           | [day_10.py](python/day_10.py)                                      | [day10.clj](clojure/day10.clj)
 [Dec 11: Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [day_11.py](python/day_11.py)                                      | [day11.clj](clojure/day11.clj)
@@ -84,3 +84,11 @@ Source: [day01_viz.clj](clojure/day01_viz.clj)
 ![day02.gif](https://i.imgur.com/qkWz2zR.gif)
 
 Source: [day02_viz.clj](clojure/day02_viz.clj)
+
+
+
+### Day 8
+
+![day08.gif](https://i.imgur.com/vERUTsA.gif)
+
+Source: [day08_viz.clj](clojure/day08_viz.clj)
