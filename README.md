@@ -50,7 +50,7 @@ Task                                                                            
 [Dec 12: Leonardo's Monorail](http://adventofcode.com/2016/day/12)                    | [day_12.py](python/day_12.py), [literal](python/day_12_literal.py) | [day12.clj](clojure/day12.clj), [day12_viz.clj](clojure/day12_viz.clj)
 [Dec 13: A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13)       | [day_13.py](python/day_13.py)                                      | [day13.clj](clojure/day13.clj), [day13_viz.clj](clojure/day13_viz.clj)
 [Dec 14: One-Time Pad](http://adventofcode.com/2016/day/14)                           | [day_14.py](python/day_14.py)                                      |
-[Dec 15: Timing is Everything](http://adventofcode.com/2016/day/15)                   | [day_15.py](python/day_15.py)                                      | [day15.clj](clojure/day15.clj)
+[Dec 15: Timing is Everything](http://adventofcode.com/2016/day/15)                   | [day_15.py](python/day_15.py)                                      | [day15.clj](clojure/day15.clj), [day15_viz.clj](clojure/day15_viz.clj)
 [Dec 16: Dragon Checksum](http://adventofcode.com/2016/day/16)                        | [day_16.py](python/day_16.py)                                      |
 [Dec 17: Two Steps Forward](http://adventofcode.com/2016/day/17)                      | [day_17.py](python/day_17.py)                                      |
 [Dec 18: Like a Rogue](http://adventofcode.com/2016/day/18)                           | [day_18.py](python/day_18.py)                                      | [day18.clj](clojure/day18.clj)
@@ -95,7 +95,6 @@ Source: [day08_viz.clj](clojure/day08_viz.clj)
 
 
 
-
 ### Day 12
 
 
@@ -105,10 +104,16 @@ Source: [day12_viz.clj](clojure/day12_viz.clj)
 
 
 
-
-
 ### Day 13
 
 ![day13.gif](https://i.imgur.com/Qk1n6nv.gif)
 
 Source: [day13_viz.clj](clojure/day13_viz.clj)
+
+
+
+### Day 15
+
+![day15.gif](https://i.imgur.com/SD1zGS0.gif)
+
+Source: [day15_viz.clj](clojure/day15_viz.clj)
