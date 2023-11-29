@@ -60,7 +60,7 @@ Task                                                                            
 [Dec 22: Grid Computing](http://adventofcode.com/2016/day/22)                         | [day_22.py](python/day_22.py)                                      |
 [Dec 23: Safe Cracking](http://adventofcode.com/2016/day/23)                          | [day_23.py](python/day_23.py), [literal](python/day_23_literal.py) | [day23.clj](clojure/day23.clj)
 [Dec 24: Air Duct Spelunking](http://adventofcode.com/2016/day/24)                    | [day_24.py](python/day_24.py)                                      |
-[Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      | [day25.clj](clojure/day25.clj)
+[Dec 25: Clock Signal](http://adventofcode.com/2016/day/25)                           | [day_25.py](python/day_25.py)                                      | [day25.clj](clojure/day25.clj), [day25_viz.clj](clojure/day25_viz.clj)
 
 
 &nbsp;
@@ -117,3 +117,11 @@ Source: [day13_viz.clj](clojure/day13_viz.clj)
 ![day15.gif](https://i.imgur.com/SD1zGS0.gif)
 
 Source: [day15_viz.clj](clojure/day15_viz.clj)
+
+
+
+### Day 25
+
+![day25.gif](https://i.imgur.com/YyqbfJn.gif)
+
+Source: [day25_viz.clj](clojure/day25_viz.clj)
