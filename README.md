@@ -3,7 +3,7 @@
 All my Advent of Code repos:
 
 * [AoC 2015 in Nim, Python](https://github.com/narimiran/advent_of_code_2015)
-* [AoC 2016 in Python, Clojure](https://github.com/narimiran/advent_of_code_2016) (this repo)
+* [AoC 2016 in Python, Clojure (+ visualizations)](https://github.com/narimiran/advent_of_code_2016) (this repo)
 * [AoC 2017 in Nim, OCaml, Python](https://github.com/narimiran/AdventOfCode2017)
 * [AoC 2018 in Nim, Python, Racket](https://github.com/narimiran/AdventOfCode2018)
 * [AoC 2019 in OCaml, Python](https://github.com/narimiran/AdventOfCode2019)
@@ -11,6 +11,7 @@ All my Advent of Code repos:
 * [AoC 2021 in Python, Racket](https://github.com/narimiran/AdventOfCode2021)
 * [AoC 2022 in Python, Clojure](https://github.com/narimiran/AdventOfCode2022)
 * [AoC 2023 in Clojure](https://github.com/narimiran/AdventOfCode2023)
+* [AoC 2024 in Clojure (Clerk notebooks)](https://github.com/narimiran/aoc2024)
 
 
 &nbsp;
@@ -47,7 +48,7 @@ Task                                                                            
 [Dec 08: Two-Factor Authentication](http://adventofcode.com/2016/day/8)               | [day_08.py](python/day_08.py)                                      | [day08.clj](clojure/day08.clj), [day08_viz.clj](clojure/day08_viz.clj)
 [Dec 09: Explosives in Cyberspace](http://adventofcode.com/2016/day/9)                | [day_09.py](python/day_09.py)                                      | [day09.clj](clojure/day09.clj)
 [Dec 10: Balance Bots](http://adventofcode.com/2016/day/10)                           | [day_10.py](python/day_10.py)                                      | [day10.clj](clojure/day10.clj)
-[Dec 11: Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [day_11.py](python/day_11.py)                                      | [day11.clj](clojure/day11.clj)
+[Dec 11: Radioisotope Thermoelectric Generators](http://adventofcode.com/2016/day/11) | [day_11.py](python/day_11.py)                                      |
 [Dec 12: Leonardo's Monorail](http://adventofcode.com/2016/day/12)                    | [day_12.py](python/day_12.py), [literal](python/day_12_literal.py) | [day12.clj](clojure/day12.clj), [day12_viz.clj](clojure/day12_viz.clj)
 [Dec 13: A Maze of Twisty Little Cubicles](http://adventofcode.com/2016/day/13)       | [day_13.py](python/day_13.py)                                      | [day13.clj](clojure/day13.clj), [day13_viz.clj](clojure/day13_viz.clj)
 [Dec 14: One-Time Pad](http://adventofcode.com/2016/day/14)                           | [day_14.py](python/day_14.py)                                      |
